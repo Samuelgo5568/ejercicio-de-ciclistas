@@ -3,26 +3,15 @@ package com.carrera.ciclismo;
 import java.util.Optional;
 import java.util.Scanner;
 
-/**
- * Clase de prueba del ejercicio.
- *
- * <p>Crea un equipo, le añade ciclistas de las tres especialidades, muestra la
- * información del equipo y, finalmente, solicita por teclado el identificador
- * de un ciclista para imprimir sus datos o indicar que no existe.</p>
- *
- * @version 1.0
- */
+
+ 
 public class Main {
 
     private Main() {
-        // Clase de utilidad: no se instancia.
+       
     }
 
-    /**
-     * Punto de entrada del programa.
-     *
-     * @param args argumentos de la línea de comandos (no se utilizan)
-     */
+
     public static void main(String[] args) {
         Equipo equipo = new Equipo("Equipo Élite", "Colombia");
 
@@ -56,12 +45,7 @@ public class Main {
         buscarCiclistaPorTeclado(equipo);
     }
 
-    /**
-     * Solicita un identificador por teclado e imprime los datos del ciclista
-     * correspondiente o un mensaje si no existe.
-     *
-     * @param equipo equipo en el que se realiza la búsqueda
-     */
+ 
     private static void buscarCiclistaPorTeclado(Equipo equipo) {
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.print("Ingrese el identificador del ciclista a buscar: ");
