@@ -1,4 +1,5 @@
 # Ejercicio de ciclistas 
+Realizado por : Samuel Andrés Gomez Taborda -- Programación 2 G411:Gabriel Pérez Moreno
 
 El programa crea un equipo, le agrega ciclistas de diferentes especialidades y
 muestra los datos del equipo y permite buscar un ciclista por su identificador.
