@@ -1,8 +1,6 @@
-# Ejercicio de ciclistas en Java
+# Ejercicio de ciclistas 
 
-Trabajo de Programación Orientada a Objetos sobre una carrera ciclística.
-
-El programa crea un equipo, le agrega ciclistas de diferentes especialidades,
+El programa crea un equipo, le agrega ciclistas de diferentes especialidades y
 muestra los datos del equipo y permite buscar un ciclista por su identificador.
 
 ## Clases
