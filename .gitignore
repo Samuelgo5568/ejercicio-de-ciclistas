@@ -1,0 +1,28 @@
+# Archivos compilados y empaquetados
+target/
+*.class
+*.jar
+*.war
+
+# Entornos de desarrollo
+.idea/
+*.iml
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs y temporales
+*.log
+hs_err_pid*
+replay_pid*
+
+# Documentación generada
+docs/javadoc/
